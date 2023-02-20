@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson13_Pseudo_Class&PseudoElement</title>
+
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        
+        .title {
+            text-align: center;
+            margin-top: 80px;
+            padding: 10px;
+            font-size: 20px;
+            font-style: italic;
+        }
+        
+        .content {
+            background-color: white;
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            margin: auto;
+            border-radius: 30px;
+            margin-top: 200px;
+        }
+        
+        .para {
+            color: red;
+            background-color: aliceblue;
+            text-align: justify;
+        }
+        
+        .para {
+            padding: 10px 10px;
+        }
+        
+        .btn {
+            background-color: salmon;
+            color: aliceblue;
+            font-size: 15px;
+            width: 200px;
+            padding: 10px 30px;
+            border-radius: 30px;
+        }
+        
+        .content:hover {
+            background-color: black;
+            color: wheat;
+            transition: 1s;
+        }
+        
+        .btn:active {
+            background-color: blue;
+            color: aliceblue;
+            transition: 1s;
+        }
+        
+        .txt {
+            text-align: center;
+        }
+        
+        .name {
+            width: 200px;
+            height: 30px;
+            margin: auto;
+            margin-top: 20px;
+            border: none;
+            border-radius: 20px;
+        }
+        
+        .name:focus {
+            background-color: brown;
+            transition: 1s;
+        }
+        
+        .span {
+            text-align: center;
+        }
+        
+        span {
+            font-size: 30px;
+        }
+        
+        span::before {
+            content: "This is before";
+            font-size: 30px;
+            color: blue;
+        }
+        
+        span::after {
+            content: "This is after";
+            font-size: 40px;
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="title">
+            Hello EveryOne
+        </div>
+        <p class="para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, doloremque voluptatem veniam dolore odio officiis exercitationem reprehenderit ex sit ducimus temporibus pariatur fugiat distinctio alias fuga saepe dignissimos recusandae tempora! Lorem,
+            ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ab exercitationem. Consequatur aut nesciunt est eveniet, eos reprehenderit dolores quod corporis. Illo voluptates exercitationem minus impedit mollitia, error id magni!
+        </p>
+        <button class="btn">Register</button>
+    </div>
+
+    <div class="txt">
+        <input type="text" class="name">
+    </div>
+
+    <hr>
+    <div class="span">
+        <span>Hello World</span>
+    </div>
+
+
+</body>
+
+</html>
