@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Design</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            margin: 0;
+        }
+        
+        table tr,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            background-color: aquamarine;
+            height: 100vh;
+            align-items: center;
+        }
+        
+        table {
+            background-color: aqua;
+            height: 30%;
+            width: 100vh;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        
+        .table {
+            color: wheat;
+        }
+        
+        .table tbody tr:nth-child(even) {
+            background-color: black;
+        }
+        
+        .table tbody tr:nth-child(odd) {
+            background-color: red;
+        }
+        
+        .table tbody {}
+        
+        .table th {
+            background-color: blue;
+            opacity: 0.6;
+        }
+        
+        .table td {}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gmail</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Mg Mg</td>
+                    <td>10</td>
+                    <td>mg@gmail.com</td>
+                    <td>Yangon</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mg Mg</td>
+                    <td>10</td>
+                    <td>mg@gmail.com</td>
+                    <td>Yangon</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mg Mg</td>
+                    <td>10</td>
+                    <td>mg@gmail.com</td>
+                    <td>Yangon</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mg Mg</td>
+                    <td>10</td>
+                    <td>mg@gmail.com</td>
+                    <td>Yangon</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

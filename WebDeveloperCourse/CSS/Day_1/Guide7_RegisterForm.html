@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(43, 234, 205);
+            margin: 0 0 0 0;
+        }
+        
+        .content {
+            background-color: aliceblue;
+            text-align: center;
+            margin: 50px;
+            border-radius: 20px;
+            width: 500px;
+            height: 500px;
+            transition: 0.5s;
+        }
+        
+        .title {
+            font-size: 30px;
+            padding-top: 30px;
+        }
+        
+        .para {
+            padding-top: 30px;
+            margin: 10px;
+            margin: auto;
+        }
+        
+        .btn {
+            background-color: darkcyan;
+            border: none;
+            color: white;
+            width: 50%;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        
+        .content:hover {
+            background-color: greenyellow;
+        }
+        
+        .para:active {
+            background-color: antiquewhite;
+        }
+        
+        .btn:focus {
+            background-color: coral;
+        }
+        
+        .title::after {
+            content: "This is after";
+        }
+        
+        .title::before {
+            content: "This is before";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="title">
+            ! Hello World !
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum error veritatis quis cum. Laboriosam delectus cumque blanditiis, repellat rem beatae aliquid repudiandae, fugiat ad eos quos, eveniet ab dolores! Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Beatae dicta suscipit quos natus! Illo, in? Magnam inventore omnis voluptatibus voluptates! Autem, minima? Commodi vitae iusto blanditiis, ad iure dolorem quaerat. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. In facilis blanditiis eos consequatur ex ab, corrupti eum aliquid labore, id adipisci, quisquam repudiandae delectus voluptatum? Ratione enim esse consequuntur excepturi! Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit. Dignissimos labore eius itaque? Sed ratione nobis possimus ad numquam sunt, repellat, nesciunt explicabo porro eligendi accusantium. Animi natus minus veniam eaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                consequatur saepe corporis, facere ducimus quod, est incidunt, ipsa minus sit autem ullam porro. Cum fuga eveniet suscipit iure dolores error.</p>
+            <button class="btn">Register</button>
+        </div>
+    </div>
+</body>
+
+</html>

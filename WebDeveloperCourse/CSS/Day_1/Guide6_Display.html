@@ -1,0 +1,80 @@
+<!-- 
+    /*Sudo Class
+    - :hover -> mouse tin yin
+    - :focus -> clc cha yin
+    - :active -> click yin
+
+    /*Sudo Element
+    - ::before
+    - ::after
+
+    /** 
+    - Transation: 1s;
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        
+        .content {
+            text-align: justify;
+            width: 400px;
+            height: 400px;
+            background-color: beige;
+            margin: 100px 400px;
+            border: 2px solid red;
+            border-radius: 10px;
+        }
+        
+        .title {
+            background-color: blue;
+            color: red;
+            text-align: center;
+        }
+        
+        h1:hover {
+            background-color: azure;
+        }
+        
+        .body {
+            background-color: aquamarine;
+        }
+        
+        p:active {
+            background-color: chartreuse;
+        }
+        
+        button:focus {
+            background-color: coral;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="title">
+            <h1> Hello</h1>
+        </div>
+        <div class="body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium rerum asperiores placeat delectus accusantium iure facilis fugiat quas inventore aut autem quis tempora impedit ea laborum, ducimus aperiam ipsa odio. Lorem Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Illo, fugit sed cumque doloremque recusandae, dolore molestiae est dolores a odio voluptatibus quasi ullam consequatur eum, ratione velit nam voluptas eveniet?Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Inventore perferendis iure molestias, error praesentium excepturi esse exercitationem eveniet explicabo impedit quidem doloremque eos saepe, repudiandae odio consectetur id aut temporibus.
+            </p>
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+        </div>
+    </div>
+</body>
+
+</html>

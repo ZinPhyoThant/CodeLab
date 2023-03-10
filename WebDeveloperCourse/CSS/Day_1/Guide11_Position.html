@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            margin: 0;
+            height: 1000px;
+        }
+        
+        .one {
+            width: 300px;
+            height: 100px;
+            background-color: brown;
+            color: fuchsia;
+            position: static;
+            margin-top: 10px;
+        }
+        
+        .two {
+            width: 200px;
+            height: 100px;
+            background-color: aqua;
+            color: fuchsia;
+            position: relative;
+            /* top: 20px;
+            left: 100px; */
+        }
+        
+        .three {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            color: fuchsia;
+            position: absolute;
+            /* top: 10px;
+            right: 100px; */
+        }
+        
+        .four {
+            width: 10px;
+            height: 10px;
+            background-color: black;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: rebeccapurple;
+            position: relative;
+            bottom: 0px;
+        }
+        
+        .b-one {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            top: 10px;
+        }
+        
+        .b-two {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            opacity: 0.2;
+            position: absolute;
+            bottom: 10px;
+            opacity: 0.2;
+        }
+        
+        .b-three {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            background-color: brown;
+            right: 0;
+            z-index: 2;
+        }
+        
+        .b-four {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            background-color: rgb(3, 172, 45);
+            right: 0;
+            z-index: 1;
+        }
+        
+        .b-five {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: rgb(11, 60, 141);
+            right: 0;
+            z-index: 0;
+        }
+        
+        .zero {
+            width: 100%;
+            height: 20px;
+            background-color: rgb(34, 6, 6);
+            position: sticky;
+            top: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <br><br><br><br><br><br>
+    <div class="box">
+        <div class="b-one"></div>
+        <div class="b-two"></div>
+        <div class="b-three"></div>
+        <div class="b-four"></div>
+        <div class="b-five"></div>
+    </div>
+
+    <div class="zero"></div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores iure quis nemo vero facilis porro dicta debitis ab dignissimos repudiandae beatae perspiciatis, inventore nam error magnam tempora veniam minus?Lorem, ipsum dolor sit amet consectetur
+    adipisicing elit. Praesentium dolores iure quis nemo vero facilis porro dicta debitis ab dignissimos repudiandae beatae perspiciatis, inventore nam error magnam tempora veniam minus?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+    dolores iure quis nemo vero facilis porro dicta debitis ab dignissimos repudiandae beatae perspiciatis, inventore nam error magnam tempora veniam minus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores iure quis nemo vero
+    facilis porro dicta debitis ab dignissimos repudiandae beatae perspiciatis, inventore nam error magnam tempora veniam minus?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores iure quis nemo vero facilis porro dicta debitis
+    ab dignissimos repudiandae beatae perspiciatis, inventore nam error magnam tempora veniam minus?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores iure quis nemo vero facilis porro dicta debitis ab dignissimos repudiandae
+    beatae perspiciatis, inventore nam error magnam tempora veniam minus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores iure quis nemo vero facilis porro dicta debitis ab dignissimos repudiandae beatae perspiciatis, inventore
+    nam error magnam tempora veniam minus?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores iure quis nemo vero facilis porro dicta debitis ab dignissimos repudiandae beatae perspiciatis, inventore nam error magnam tempora
+    veniam minus?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores iure quis nemo vero facilis porro dicta debitis ab dignissimos repudiandae beatae perspiciatis, inventore nam error magnam tempora veniam minus?
+
+</body>
+
+</html>
+
+<!-- 
+    z-index (ayin lod mae kg ko tht mt tr) 
+    Position (scroll bar swl)
+    /* Static   => Defualt သူ့နေရာနဲ့သူရှိတာ
+    /* relative => top/left/bottom/right သူ့နေရာနဲ့သူကနေ
+    /* absolute => top.left.bottom.right (Broswer)
+    /* fix      => t.l.b.r (fix)
+    /*sticky    => nav bar mar ton/  top nae twl ton tl
+
+
+
+
+    Note: use   bg - rela inside-absolute
+-->
